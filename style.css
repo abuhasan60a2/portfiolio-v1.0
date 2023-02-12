@@ -1,0 +1,213 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #332C39;
+    padding: 15px;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+#logo:hover {
+    font-size: 30px;
+    color: red
+}
+
+#nav {
+    list-style: none;
+    padding: auto;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 12px 22px;
+
+}
+
+#nav li a {
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    border: 2px solid black;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#main {
+    background-color: #AEE2FF;
+    height: 600px;
+}
+
+#cpp {
+    position:relative;
+    left:500px;
+    top:160px;
+    height: 100px;
+    width: 100px;
+}
+
+#webdev {
+    position: relative;
+    left: 1200px;
+    top: 160px;
+    height: 120px;
+    width: 120px;
+}
+
+#python {
+    position:relative;
+    left:480px;
+    top: 80px;
+    height: 100px;
+    width: 150px;
+}
+
+#ml {
+    position: relative;
+    left: 660px;
+    top: 100px;
+    height: 100px;
+    width: 100px;
+}
+#solidity {
+    position: relative;
+    left: 1200px;
+    top: 60px;
+    height: 100px;
+    width: 100px;
+}
+#programming {
+    position: relative;
+    left: 700px;
+    top: 60px;
+    height: 100px;
+    width: 100px;
+}
+.about_container {
+    color: #00005C;
+    font-weight: bolder;
+}
+
+.about_me {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width:35%;
+    margin:100px auto 5px auto;
+}
+
+.about_me_desc{
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    width:55%;
+    margin:5px auto 5px auto;
+}
+.break{
+    background-color: #00005C;
+    height: 5px;
+}
+#about{
+    color: #00005C;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   
+}
+#about h1{
+   margin: 5px auto;
+   font-family: 'Share Tech Mono', monospace;
+}
+#profile_pic{
+    /* margin-left: 810px; */
+    height:300px;
+    width:300px;
+    border: 8px solid gold;
+    border-radius: 200px;
+}
+#about p{
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 5px;
+}
+#skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #AEE2FF;
+    padding: 10px;
+}
+#htmlskill{
+    height: 200px;
+    width: 200px;
+}
+#csskill{
+    height: 200px;
+    width: 200px;
+}
+#bootstrapskill{
+    height: 200px;
+    width: 200px;
+}
+#javaskill{
+    height: 200px;
+    width: 300px;
+}
+#pythonskill{
+    height: 200px;
+    width: 300px;
+}
+#mysqlskill{
+    height: 200px;
+    width: 200px;
+}
+.skills{
+    background-color: whitesmoke;
+    margin: 8px;
+    text-align: center;
+    border-radius: 20px;
+}
+.social{
+    height:60px;
+    width:60px;
+    margin:4px 10px;
+}
+#social_row{
+    padding: 8px;
+    
+}
+#contact{
+    display: flex;
+    background-color: #00E7FF;
+    align-items: center;
+    justify-content: space-around;
+}
+#contact h1{
+    margin-left: 150px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 60px;
+}
+footer{
+    background-color: #00005C;
+    text-align: center;
+    color: white;
+}
